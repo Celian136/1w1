@@ -1,0 +1,74 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+}
+
+section {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3rem;
+  text-shadow: 2px, 2px, 4px, #bbb; /*horizontale - verticale - étalement - couleur*/
+  margin: 0;
+}
+/*///////////////////////////////////////////////// Gestion du menu */
+/* Menu principale du site. 
+On utilise un positionnement "fixed" pour que le menu reste en-haut de chaque sections
+*/
+nav {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  /*text-align: center;*/
+}
+
+nav a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  /*padding: 4px 3px;*/
+  padding: 4px 2rem;
+  padding: 4px 1rem; /* 4px ->  */
+}
+
+#accueil {
+  /*background-color: azure;*/
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#inscription {
+  /*background-color: azure;*/
+  background-color: aquamarine;
+}
+#galerie {
+  /*background-color: azure;*/
+  background-color: blueviolet;
+}
+#evenement {
+  /*background-color: azure;*/
+  background-color: beige;
+}
+#video {
+  /*background-color: azure;*/
+  background-color: #bbb;
+}
+#footer {
+  /*background-color: azure;*/
+  background-color: rgb(32, 32, 32);
+  color: #fff;
+}
